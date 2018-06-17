@@ -33,11 +33,13 @@
             android:id="@+id/photoPickerButton"
             android:layout_width="36dp"
             android:layout_height="36dp"
+            android:contentDescription="Upload Image Button"
             android:background="@android:drawable/ic_menu_gallery" />
 
         <EditText
             android:id="@+id/messageEditText"
             android:layout_width="0dp"
+            android:hint="Enter a message"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_weight="1" />
